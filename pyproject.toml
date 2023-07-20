@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "hide_frames"
-version = "1.0.0"
-description = "Hide ugly frames in your wrappers"
+version = "1.0.1"
+description = "Hide your ugly wrapper frames: func(*args, **kwargs)"
 readme = "README.md"
 license = { file = "LICENSE" }
 classifiers = [
