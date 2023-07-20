@@ -1,5 +1,8 @@
+from functools import wraps
+
 def hide_nframes(n):
     def decorator(f):
+        @wraps(f)
         def _inner(*args, **kwargs):
             try:
                 return f(*args, **kwargs)
